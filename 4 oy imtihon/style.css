@@ -1,0 +1,809 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background: #EBEBEB;
+}
+
+header{
+    background: url('img/Rectangle\ 1107.png');
+}
+
+footer{
+    background: url('img/Rectangle\ 1069.png') no-repeat;
+
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo h2{
+    color: #FFF;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding-top: 8px;
+}
+
+.logo{
+    padding-top: 51px;
+    display: flex;
+    gap: 21px;
+}
+
+.nav nav ul{
+    list-style: none;
+    display: flex;
+    gap: 21px;
+    padding-top: 58px;
+    padding-left: 127px;
+}
+
+.nav nav ul li a{
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.81);
+    text-align: center;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 173.333% */
+}
+.demo-btn button{
+    width: 122px;
+    height: 44px;
+    border-radius: 60px;
+    background-color: transparent;
+    border: 2px solid #9610FF;
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);   
+}
+
+.demo-btn button span{
+    width: 91px;
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.road-btn button{
+    width: 122px;
+    height: 44px;
+    border-radius: 60px;
+    background-color: transparent;
+    border: 2px solid #456AE7;
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+}
+
+.road-btn button span{
+    width: 83px;
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.rus-btn button{
+    width: 100px;
+    height: 44px;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
+
+.rus-btn button span{
+    width: 83px;
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.head-btns{
+    display: flex;
+    gap: 21px;
+    padding-left: 14px;
+    padding-top: 48px;
+}
+
+.logo, .nav, .head-btns{
+    padding-bottom: 52px;
+}
+
+.lione a{
+    color: #5B41F5;
+text-align: center;
+font-family: Abhaya Libre SemiBold;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+text-decoration-line: underline;
+}
+
+.nav-main nav ul li a{
+    text-decoration: none;
+}
+
+.nav-main nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.litwo a{
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+}
+
+.nav-main{
+    background: url('img/Rectangle\ 1107.png');
+    padding-left: 242px;
+    padding-bottom: 32px;
+}
+
+#birinchi{
+    background: url('img/Rectangle\ 1073.png') no-repeat;
+    width: 1400px;
+    height: 300px;
+
+    display: flex;
+    position: relative;
+}
+
+.bir-text h1{
+    width: 937px;
+    height: 58px;
+    color: #FFFF;
+    text-align: center;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52.5px; /* 41.016% */
+    text-transform: uppercase;
+    padding-top: 78px;
+}
+
+.bir-text p{
+    height: 58px;
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 58px;
+    padding-right: 500px;
+}
+
+.bir-img{
+    position: absolute;
+    padding-left: 520px;
+    padding-bottom: 150px;
+}
+
+.bir-img img{
+    width: 700px;
+    height: 350px;
+}
+
+#ikkinchi{
+    display: flex;
+    gap: 19px;
+}
+
+.ikki-img{
+    margin-top: 25px;
+    position: relative;
+}
+
+
+.ikki-img-ikki{
+    display: block;
+    margin-top: 25px;
+}
+
+.ikki-img-ikki-bir img{
+    width: 367px;
+    height: 196px;
+}
+.ikki-img-ikki-ikki img{
+    margin-top: 17px;
+    width: 367px;
+    height: 196px;
+}
+
+
+
+
+
+.hide{
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}
+
+
+
+
+
+
+.hide-text{
+    position: absolute;
+    top: 65%;
+
+}
+
+.hide-text h2{
+    color: #FFF;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.hide-text p{
+    width: 418px;
+    height: 72px;
+    padding-left: 31px;
+    color: #B9B7DC;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.category{
+    width: 367px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.category p {
+    padding-top: 31px;
+    padding-left: 31px;
+    color: #000;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 99.4%; /* 24.85px */
+}
+
+.imgs{
+    display: flex;
+    gap: 19px;
+}
+
+.img-one img{
+    width: 367px;
+    height: 196px;
+}
+
+.img-one h2{
+    width: 258px;
+    height: 27px;
+    color: #000;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.img-one p{
+    width: 329px;
+    height: 72px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+
+.img-two img{
+    width: 367px;
+    height: 196px;
+}
+
+.img-two h2{
+    width: 258px;
+    height: 27px;
+    color: #000;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.img-two p{
+    width: 329px;
+    height: 72px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.category ul li{
+    
+    list-style: none;
+    width: 362px;
+    color: #000;
+font-family: Abril Fatface;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 232.4%; /* 37.184px */
+opacity: 0.4;
+}
+
+.category ul{
+    margin-top: 14px;
+    margin-left: 30px;
+}
+
+.img-one-btns{
+    gap: 7px;
+}
+
+.img-one-btns button{
+    width: 61px;
+    height: 24.642px;
+    border-radius: 5px;
+    border: 1px solid #5B41F5;
+    background: #FFF;
+}
+
+.img-one-btns button span{
+    width: 30px;
+    height: 14px;
+    color: #5B41F5;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99.4%;
+}
+
+.img-two-btns{
+    gap: 7px;
+}
+
+.img-two-btns button{
+    width: 61px;
+    height: 24.642px;
+    border-radius: 5px;
+    border: 1px solid #5B41F5;
+    background: #FFF;
+}
+
+.img-two-btns button span{
+    width: 30px;
+    height: 14px;
+    color: #5B41F5;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99.4%;
+}
+
+#uchinchi{
+    margin-top: 40px;
+}
+
+#tortinchi{
+    display: flex;
+    gap: 19px;
+    margin-top: 40px;
+}
+
+.min-icons{
+    display: flex;
+    gap: 19px;
+    margin-bottom: 10px;
+}
+
+
+.icon-one{
+    display: flex;
+    gap: 6px;
+}
+
+.icon-two{
+    display: flex;
+    gap: 6px;
+}
+
+.icon-one img{
+    width: 20px;
+    height: 20px;
+    color: #5B41F5;
+}
+
+.icon-two img{
+    width: 20px;
+    height: 20px;
+    color: #5B41F5;
+}
+
+.icon-one p{
+    width: 49px;
+    height: 18px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.icon-two p{
+    width: 49px;
+    height: 18px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+#beshinchi{
+    display: flex;
+    gap: 19px;
+    margin-top: 40px;
+}
+
+.tags{
+    width: 367px;
+    height: 207px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.tags p{
+    width: 343px;
+    color: #000;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 99.4%;
+    margin-top: 31px;
+    margin-left: 31px;
+    margin-bottom: 18px;
+}
+
+.tags-btns{
+    margin-left: 31px;
+}
+
+.tags-one{
+    margin-top: 12px;
+    display: flex;
+    gap: 7px;
+}
+
+.tags-one button{
+    width: 61px;
+    height: 24.642px;
+    border-radius: 5px;
+    border: 1px solid #5B41F5;
+    background: #FFF;
+}
+
+.tags-one button span{
+    width: 30px;
+    height: 14px;
+    color: #5B41F5;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99.4%;
+}
+
+
+.pop-news{
+    width: 367px;
+    height: 433px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.pop-news p{
+    width: 343px;
+    color: #000;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 99.4%;
+    margin-bottom: 33px;
+    margin-top: 31px;
+    margin-left: 31px;
+}
+
+.img-pop{
+    display: flex;
+}
+
+.img-pop img{
+    width: 125px;
+    height: 69px;
+    border-radius: 7px;
+    margin-left: 31px;
+}
+
+.img-pop-news{
+    display: flex;
+}
+
+
+.img-pop-text p{
+    width: 343px;
+    color: #000;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 99.4%;
+}
+
+.img-pop-text span{
+    width: 174px;
+    height: 40px;
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.4%;
+    opacity: 0.4;
+}
+
+
+.min-icon-one p{
+    width: 49px;
+    height: 18px;
+    color: #B9B7DC;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.min-icon-two p{
+    width: 49px;
+    height: 18px;
+    color: #B9B7DC;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.foot-logo{
+    gap: 13px;
+}
+
+.foot-text{
+    padding-top: 63px;
+    display: flex;
+}
+
+.foot-logo p{
+    padding-top: 7px;
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    width: 200px;
+}
+
+.foot-btn{
+    padding-top: 32px;
+    padding-bottom: 100px;
+}
+
+.foot-btn button{
+    width: 258px;
+    height: 56px;
+    border-radius: 60px;
+    border: 2px solid #456AE7;
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
+
+.foot-btn button span{
+    color: #FFF;
+    font-family: Abyssinica SIL;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.follow{
+    padding-top: 114px;
+    padding-left: 100px;
+}
+
+.follow p{
+    color: #FFF;
+    font-family: Abyssinica SIL;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+
+.mini-btn-foot-one img{
+    width: 23.996px;
+    height: 15px;
+}
+
+
+.mini-btn-foot-two img{
+    width: 18.228px;
+    height: 15.871px;
+}
+
+.mini-btn-foot-three img{
+    width: 15.803px;
+    height: 17.987px;
+}
+
+.mini-btns-foot{
+    padding-top: 35px;
+    display: flex;
+    gap: 30px;
+}
+
+
+.contacts{
+    padding-top: 114px;
+    padding-left: 70px;
+}
+
+.contacts p{
+    color: #FFF;
+    font-family: Abyssinica SIL;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.tg p{
+    color: #FFF;
+font-family: Abril Fatface;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+padding-top: 20px;
+}
+
+.tg img{
+    width: 26.417px;
+    height: 23px;
+    padding-top: 31px;
+}
+
+.mail p{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    padding-top: 12px;
+}
+
+.mail img{
+    width: 25.6px;
+    height: 18px;
+    padding-top: 26px;
+}
+
+.tg, .mail{
+    gap: 14px;
+    display: flex;
+}
+
+.partners p{
+    color: #FFF;
+    font-family: Abyssinica SIL;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.partners{
+    padding-top: 114px;
+    padding-left: 40px;
+}
+
+.mini-you img{
+    width: 20.332px;
+    height: 14.403px;
+}
+
+.mini-tg img{
+    width: 18.403px;
+    height: 16.023px;
+}
+
+.mini-inst{
+    width: 17.091px;
+    height: 17.091px;
+}
+
+.mini-btns-two{
+    display: flex;
+    gap: 44px;
+    padding-top: 40px;
+}
+
+.foot-footer{
+    width: 1519px;
+    background: #06001D;
+}
+
+.foot-footer p{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
